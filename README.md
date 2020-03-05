@@ -1,7 +1,7 @@
 # SageMaker workshop: "Build, train, and deploy ML models with Amazon SageMaker"
 
 ## Companion slides
-[Slides can be found here](workshop-sagemaker.pdf)
+[Slides can be found here](https://jondion-public.s3.amazonaws.com/decks/UWDSC-Sagemaker-workshop.pdf)
 
 ## Setup instructions
 
