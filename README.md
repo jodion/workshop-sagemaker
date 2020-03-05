@@ -12,13 +12,13 @@
 1. Click on the **Accept Terms & Login** green button.
 1. In the Team Dashboard page, click on the **AWS Console** button.
 1. In the AWS Console Login window, click on the **Open AWS Console** button. You will be logged into an AWS account.
-1. Make sure you are in the **Canada (Central)** region by looking at the top right corner of the screen. It should say **Central** to the left of Support. If not, click on the field next to Support and select Canada (Central).
+1. Make sure you are in the **US East (N. Virginia)** region by looking at the top right corner of the screen. It should say **N. Virginia** to the left of Support. If not, click on the field next to Support and select US East (N. Virginia).
 1. In the top bar menu, navigate to **Services > Amazon SageMaker** to open the SageMaker console.
 1. In the navigation menu on the left, click **Notebook instances**.
 1. Click on the **Create notebook instance** button.
 1. Fill the following fields:
    * Notebook instance name: type a name for your instance, e.g `workshop-sagemaker`.
-   * Notebook instance type: select **ml.t3.medium**. No need for anything bigger :)
+   * Notebook instance type: select **ml.t2.medium**. No need for anything bigger :)
    * IAM role: select **Create a new role** from the **Choose an IAM role** dropdown. In the dialog window, do the following:
      * Select **Any S3 bucket**. Normally, you should select a specific bucket, but it hasn't been created yet.
      * Click on the **Create role** button.
@@ -28,5 +28,5 @@
    * Leave all other fields as is.
 1. Click on the **Create notebook instance** button. This will bring you back to the list of Notebook instances where you should see yours being created. Wait for your Notebook instance to become **In Service** which should take less than 5 minutes. You may have to refresh the page depending on your browser.
 1. Next to your **Notebook instance**, click on the link **Open JupyterLab**. This will open the JupyterLab page in your browser.
-1. In the **JupyterLab** page, on the navigation section on the left of the screen, double-click on **notebook.ipynb**. This will open the IPython Notebook.
+1. In the **JupyterLab** page, on the navigation section on the left of the screen, double-click on the folder **workshop-sagemaker** and in the folder, double-click on the **notebook.ipynb** file. This will open the IPython Notebook.
 1. The reminder of the lab instructions are in the notebook you just opened. Have fun!
